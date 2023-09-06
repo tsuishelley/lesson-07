@@ -30,6 +30,16 @@ p {
     line-height: 150%;
 }
 
+.hidden {
+    position: relative;
+    left:-100000px;
+    top:auto;
+}
+
+.hidden:focus {
+    left:0;
+}
+
 .intro {
     padding: 100px 100px 100px 100px;
     display: flex;
